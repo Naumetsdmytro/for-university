@@ -1,57 +1,113 @@
-<! DOCTYPE html>
-    <html lang="en">
-    <голова>
-        <meta charset="UTF-8">
-        <назва>Друзі</назва>
-    </голова>
-    <тіло>
-        <h1> Друзі Павлюка Віталія Юрійовича</h1>
-        <p><a href="index.html">Назад на головну</a></p>
-        <h2>Друзі</h2>
-        <стіл>
+<!DOCTYPE html>
+<html lang="uk">
 
-            <підпис> Друзі </caption>
-                <Голова>
-                    <тр>
-                        <th>Прізвище</th>
-                        <th>Ім'я</th>
-                        <th>Дата Народження</th>
-                        <th>Адреса</th>
-                        <th>Контактний номер</th>
-                    </тр>
-                </Голова>
-                <тіло>
-                    <тр>
-                        <td>Гордон</td>
-                        <td>Дмитро</td>
-                        <TD>21 жовтня 1967</TD>
-                        <td>Брайтон Біч в місті Нью-йорк</td>
-                        <TD>0 888 888 888</td>
-                    </тр>
-                    <тр>
-                        <td>Ілон</td>
-                        <td>Маск</td>
-                        <TD>28 червня 1971</TD>
-                        <td>Вулиця миколайчука в місті Івано-Франківськ</td>
-                        <TD> 0 777 777 777</td>
-                    </тр>
-                    <тр>
-                        <td>Нікола</td>
-                        <td>Тесла</td>
-                        <TD> 10 липня 1856</td>
-                        <td>Вулиця Степана Бандери в місті Москва</td>
-                        <Тд> 0 666 666 666</тд>
-                    </тр>
-                    <тр>
-                        <td>Іван</td>
-                        <td>Алексєєв</td>
-                        <TD> 9 березня 1985</td>
-                        <td>Вулиця Нойза в місті Києві</td>
-                        <тд> 0 555 555 555</тд>
-                    </тр>
-                </тіло>
-        </стіл>
+<head>
 
-    </тіло>
+    <title> Friends </title>
+    <meta charset="UTF-8">
+    <style>
+        .title-friends {
+            font-size: 22px;
+            text-align: center;
+        }
 
-    </html>
+        .back-main {
+            font-style: italic;
+        }
+
+        .title-table {
+            text-align: center;
+        }
+
+        .table-first {
+            text-align: center;
+            font-weight: bold;
+            background-color: green;
+        }
+
+        .table-number {
+            text-align: right;
+        }
+
+        .table {
+            background-color: green;
+            color: darkblue;
+        }
+
+        table {
+            width: 500px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            border: solid 1px black;
+            background-color: #ddddaa;
+        }
+
+        td {
+            border: 1px solid black;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="title-friends">Друзі Наумця Дмитра Андрійовича </h1>
+
+    <p><a href="index.html" class="back-main">Назад на головну</a></p>
+    <h2>Мої друзі</h2>
+    <table class="table">
+
+        <caption class="title-table">Мої Друзі</caption>
+
+        <thead>
+            <tr>
+                <th class="table-first">Прізвище</th>
+                <th class="table-first">Ім'я</th>
+                <th class="table-first">Дата Народження</th>
+                <th class="table-first">Адреса</th>
+                <th class="table-first">Контактний номер</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Гриньків</td>
+                <td>Давид</td>
+                <td>24.10.04</td>
+                <td>с.Сопів</td>
+                <td class="table-number">+3809324125</td>
+            </tr>
+            <tr>
+                <td>Попадинців</td>
+                <td>Олег</td>
+                <td>21.08.06</td>
+                <td>с.Сопів</td>
+                <td class="table-number">+3806843523</td>
+            </tr>
+            <tr>
+                <td>Ющак</td>
+                <td>Влад</td>
+                <td>26.07.04</td>
+                <td>с.Сопів</td>
+                <td class="table-number">+3806732340</td>
+            </tr>
+            <tr>
+                <td>Дахим</td>
+                <td>Олександр</td>
+                <td>27.08.06</td>
+                <td>с.Сопів</td>
+                <td class="table-number">+3809832381</td>
+            </tr>
+
+        </tbody>
+
+
+
+    </table>
+
+</body>
+
+</html>
